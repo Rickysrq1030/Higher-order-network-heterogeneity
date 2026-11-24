@@ -1,0 +1,9 @@
+{
+  "name": "FigD3",
+  "kind": "native",
+  "scripts": [
+    "draw.py",
+    "phase.py"
+  ],
+  "prepare": "prepare_data.py"
+}

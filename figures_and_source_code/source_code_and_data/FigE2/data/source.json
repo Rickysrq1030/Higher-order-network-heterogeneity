@@ -1,0 +1,19 @@
+{
+  "archive": "ORH_publication_figures_revised.rar",
+  "manuscript_page": 28,
+  "theta": 1,
+  "files": {
+    "fig1_global.csv": {
+      "archive_path": "ORH_publication_figures_revised/PGG_theta_1/data/fig1_global.csv",
+      "sha256": "389872b4a2ed03545783cba50a7e3e6361b81b5b8f3cf2fd28ce4c8f7448ab0f"
+    },
+    "fig1_a1_points.csv": {
+      "archive_path": "ORH_publication_figures_revised/PGG_theta_1/data/fig1_a1_points.csv",
+      "sha256": "bdf33d2de3ee7d81178234f3a1436b064ff4b7ef7d9a9889683834f2997cfca6"
+    },
+    "fig1_a1_boxes.csv": {
+      "archive_path": "ORH_publication_figures_revised/PGG_theta_1/data/fig1_a1_boxes.csv",
+      "sha256": "30b0cae4dcfe103f44b66f51f6cf082458d8ca6d6fc46bc7833b1c87b7eeb4f3"
+    }
+  }
+}

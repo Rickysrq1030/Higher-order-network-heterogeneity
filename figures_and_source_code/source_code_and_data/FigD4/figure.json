@@ -1,0 +1,10 @@
+{
+  "name": "FigD4",
+  "kind": "standalone",
+  "game": "MPD",
+  "experiment": "alpha",
+  "source_identifier": "A2",
+  "scripts": [
+    "draw.py"
+  ]
+}
