@@ -1,0 +1,4472 @@
+{
+  "name": "FigD2",
+  "game": "PGG",
+  "experiment": "alpha",
+  "source_identifier": "A2",
+  "width_mm": 160.0,
+  "height_mm": 108.0,
+  "font_pt": 8,
+  "font_family": "Times New Roman",
+  "stroke_pt": 0.6,
+  "png_dpi": 600,
+  "source_data_audit": {
+    "passed": true,
+    "all_match": true,
+    "game": "PGG",
+    "experiment": "alpha",
+    "source_identifier": "A2",
+    "inputs": [
+      {
+        "path": "C:\\data\\pros\\hyper_graph_csis\\附录图\\FigD2\\data\\plot_data.csv",
+        "sha256": "ddba5c5345d552014607954d875c6622a7f44d6082dacaead97b2dfc7e90b73f",
+        "archive_member": "SRH_new_figure/SRH_PGG/alpha/A2/plot_data.csv"
+      },
+      {
+        "path": "C:\\data\\pros\\hyper_graph_csis\\附录图\\FigD2\\data\\source_reference.pdf",
+        "sha256": "33651cb88de1794885c70cdfc590b351ca011fb4b365237e0189ad05c1959c54",
+        "archive_member": "SRH_new_figure/SRH_PGG/alpha/A2/SRH_PGG_A2_alpha.pdf"
+      },
+      {
+        "path": "C:\\data\\pros\\hyper_graph_csis\\附录图\\FigD2\\data\\source_FILES_AND_DATA.md",
+        "sha256": "e91a099bd6f17ee0ac51b8e338a542bac8e2ed3acdb3a70c042a3f8b372dd0da",
+        "archive_member": "SRH_new_figure/SRH_PGG/FILES_AND_DATA.md"
+      },
+      {
+        "path": "C:\\data\\pros\\hyper_graph_csis\\附录图\\FigD2\\data\\source_METHODS_AND_EXAMPLES.md",
+        "sha256": "d130da1fdcff490f00dcd318db1ebce67878451d9cf67663cd49fa01ea99c677",
+        "archive_member": "SRH_new_figure/SRH_PGG/METHODS_AND_EXAMPLES.md"
+      },
+      {
+        "path": "C:\\data\\pros\\hyper_graph_csis\\附录图\\FigD2\\data\\source_A1_plot_data.csv",
+        "sha256": "6082b7a4adf57dcad3ef6527ea0c68595b2a9de395b55cc8c5523748135845fc",
+        "archive_member": "SRH_new_figure/SRH_PGG/alpha/A1/plot_data.csv"
+      }
+    ],
+    "provenance": {
+      "game": "PGG",
+      "experiment": "alpha",
+      "source_identifier": "A2",
+      "archive": "C:\\Users\\12101\\xwechat_files\\wxid_722qgmkg0ocl22_3233\\msg\\file\\2026-11\\SRH_new_figure.rar",
+      "archive_sha256": "e434fbe018be6c61dbf81a1ec72140aa7ccc092fc06b532a931cd51a2216df33",
+      "files": [
+        {
+          "archive_member": "SRH_new_figure/SRH_PGG/alpha/A2/plot_data.csv",
+          "local_file": "附录图/FigD2/data/plot_data.csv",
+          "sha256": "ddba5c5345d552014607954d875c6622a7f44d6082dacaead97b2dfc7e90b73f"
+        },
+        {
+          "archive_member": "SRH_new_figure/SRH_PGG/alpha/A2/SRH_PGG_A2_alpha.pdf",
+          "local_file": "附录图/FigD2/data/source_reference.pdf",
+          "sha256": "33651cb88de1794885c70cdfc590b351ca011fb4b365237e0189ad05c1959c54"
+        },
+        {
+          "archive_member": "SRH_new_figure/SRH_PGG/FILES_AND_DATA.md",
+          "local_file": "附录图/FigD2/data/source_FILES_AND_DATA.md",
+          "sha256": "e91a099bd6f17ee0ac51b8e338a542bac8e2ed3acdb3a70c042a3f8b372dd0da"
+        },
+        {
+          "archive_member": "SRH_new_figure/SRH_PGG/METHODS_AND_EXAMPLES.md",
+          "local_file": "附录图/FigD2/data/source_METHODS_AND_EXAMPLES.md",
+          "sha256": "d130da1fdcff490f00dcd318db1ebce67878451d9cf67663cd49fa01ea99c677"
+        },
+        {
+          "archive_member": "SRH_new_figure/SRH_PGG/alpha/A1/plot_data.csv",
+          "local_file": "附录图/FigD2/data/source_A1_plot_data.csv",
+          "sha256": "6082b7a4adf57dcad3ef6527ea0c68595b2a9de395b55cc8c5523748135845fc"
+        }
+      ],
+      "matching_current_figure_A1": {
+        "path": "附录图/FigD1/data/box_plot_data.csv",
+        "sha256": "6082b7a4adf57dcad3ef6527ea0c68595b2a9de395b55cc8c5523748135845fc",
+        "same_package_A1_bytes_identical": true
+      },
+      "raw_simulation_txt_in_package": false,
+      "source_script_executed": false,
+      "source_data_modified": false
+    },
+    "rows": 192,
+    "stacked_bars": 24,
+    "bins_per_bar": 8,
+    "visible_curve_points": 105,
+    "hidden_curve_points": 87,
+    "missing_conditional_means": 26,
+    "condition_count": 41,
+    "p_values": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "category_values": [
+      0.5,
+      0.25,
+      0.0
+    ],
+    "bin_labels": [
+      "1-3",
+      "4-7",
+      "8-15",
+      "16-31",
+      "32-63",
+      "64-127",
+      "128-255",
+      ">=256"
+    ],
+    "show_line_threshold": "n_nodes_min >= 20 in all 41 conditions",
+    "max_abs_share_rounding_error": 4.971023592759138e-13,
+    "max_abs_mean_count_rounding_error": 2.926753950305283e-09,
+    "population_checks": [
+      {
+        "category_rank": 1,
+        "p_link": 0.0,
+        "player_type": "node",
+        "a2_n_type_total": 82000,
+        "a1_n_players_total": 82000,
+        "match": true
+      },
+      {
+        "category_rank": 1,
+        "p_link": 0.25,
+        "player_type": "link",
+        "a2_n_type_total": 20641,
+        "a1_n_players_total": 20641,
+        "match": true
+      },
+      {
+        "category_rank": 1,
+        "p_link": 0.25,
+        "player_type": "node",
+        "a2_n_type_total": 61359,
+        "a1_n_players_total": 61359,
+        "match": true
+      },
+      {
+        "category_rank": 1,
+        "p_link": 0.5,
+        "player_type": "link",
+        "a2_n_type_total": 40870,
+        "a1_n_players_total": 40870,
+        "match": true
+      },
+      {
+        "category_rank": 1,
+        "p_link": 0.5,
+        "player_type": "node",
+        "a2_n_type_total": 41130,
+        "a1_n_players_total": 41130,
+        "match": true
+      },
+      {
+        "category_rank": 1,
+        "p_link": 0.75,
+        "player_type": "link",
+        "a2_n_type_total": 61491,
+        "a1_n_players_total": 61491,
+        "match": true
+      },
+      {
+        "category_rank": 1,
+        "p_link": 0.75,
+        "player_type": "node",
+        "a2_n_type_total": 20509,
+        "a1_n_players_total": 20509,
+        "match": true
+      },
+      {
+        "category_rank": 1,
+        "p_link": 1.0,
+        "player_type": "link",
+        "a2_n_type_total": 82000,
+        "a1_n_players_total": 82000,
+        "match": true
+      },
+      {
+        "category_rank": 2,
+        "p_link": 0.0,
+        "player_type": "node",
+        "a2_n_type_total": 82000,
+        "a1_n_players_total": 82000,
+        "match": true
+      },
+      {
+        "category_rank": 2,
+        "p_link": 0.25,
+        "player_type": "link",
+        "a2_n_type_total": 20646,
+        "a1_n_players_total": 20646,
+        "match": true
+      },
+      {
+        "category_rank": 2,
+        "p_link": 0.25,
+        "player_type": "node",
+        "a2_n_type_total": 61354,
+        "a1_n_players_total": 61354,
+        "match": true
+      },
+      {
+        "category_rank": 2,
+        "p_link": 0.5,
+        "player_type": "link",
+        "a2_n_type_total": 40853,
+        "a1_n_players_total": 40853,
+        "match": true
+      },
+      {
+        "category_rank": 2,
+        "p_link": 0.5,
+        "player_type": "node",
+        "a2_n_type_total": 41147,
+        "a1_n_players_total": 41147,
+        "match": true
+      },
+      {
+        "category_rank": 2,
+        "p_link": 0.75,
+        "player_type": "link",
+        "a2_n_type_total": 61165,
+        "a1_n_players_total": 61165,
+        "match": true
+      },
+      {
+        "category_rank": 2,
+        "p_link": 0.75,
+        "player_type": "node",
+        "a2_n_type_total": 20835,
+        "a1_n_players_total": 20835,
+        "match": true
+      },
+      {
+        "category_rank": 2,
+        "p_link": 1.0,
+        "player_type": "link",
+        "a2_n_type_total": 82000,
+        "a1_n_players_total": 82000,
+        "match": true
+      },
+      {
+        "category_rank": 3,
+        "p_link": 0.0,
+        "player_type": "node",
+        "a2_n_type_total": 82000,
+        "a1_n_players_total": 82000,
+        "match": true
+      },
+      {
+        "category_rank": 3,
+        "p_link": 0.25,
+        "player_type": "link",
+        "a2_n_type_total": 20743,
+        "a1_n_players_total": 20743,
+        "match": true
+      },
+      {
+        "category_rank": 3,
+        "p_link": 0.25,
+        "player_type": "node",
+        "a2_n_type_total": 61257,
+        "a1_n_players_total": 61257,
+        "match": true
+      },
+      {
+        "category_rank": 3,
+        "p_link": 0.5,
+        "player_type": "link",
+        "a2_n_type_total": 40971,
+        "a1_n_players_total": 40971,
+        "match": true
+      },
+      {
+        "category_rank": 3,
+        "p_link": 0.5,
+        "player_type": "node",
+        "a2_n_type_total": 41029,
+        "a1_n_players_total": 41029,
+        "match": true
+      },
+      {
+        "category_rank": 3,
+        "p_link": 0.75,
+        "player_type": "link",
+        "a2_n_type_total": 61469,
+        "a1_n_players_total": 61469,
+        "match": true
+      },
+      {
+        "category_rank": 3,
+        "p_link": 0.75,
+        "player_type": "node",
+        "a2_n_type_total": 20531,
+        "a1_n_players_total": 20531,
+        "match": true
+      },
+      {
+        "category_rank": 3,
+        "p_link": 1.0,
+        "player_type": "link",
+        "a2_n_type_total": 82000,
+        "a1_n_players_total": 82000,
+        "match": true
+      }
+    ],
+    "actual_type_populations_match_same_package_A1": true,
+    "a1_reference_matches_current_figure_at_import": {
+      "path": "附录图/FigD1/data/box_plot_data.csv",
+      "sha256": "6082b7a4adf57dcad3ef6527ea0c68595b2a9de395b55cc8c5523748135845fc",
+      "same_package_A1_bytes_identical": true
+    },
+    "shown_hyperdegree_range": [
+      3.0,
+      44.1305230374
+    ],
+    "shown_cooperation_range": [
+      0.367979060401,
+      0.63295803069
+    ],
+    "upper_statistic": "Pooled per-type node counts across all 41 conditions; fractions sum to one in each bar",
+    "lower_statistic": "Equal-condition mean of per-condition within-type/bin arithmetic mean hyperdegree and cooperation",
+    "sample_definition": "41 distinct r conditions",
+    "missing_means_preserved_as_none": true,
+    "data_modified": false,
+    "raw_node_binning_recomputed": false,
+    "limitation": "Source package contains aggregated bin tables, not raw simulation TXT. Per-bin node/time values, per-condition minima, and conditional means cannot be independently recomputed from these summaries alone."
+  },
+  "lower_x_axis": {
+    "scale": "log",
+    "base": 2,
+    "limits": [
+      2.7,
+      55.0
+    ],
+    "ticks": [
+      3.0,
+      6.0,
+      12.0,
+      24.0,
+      48.0
+    ],
+    "arithmetic_means_unchanged": true
+  },
+  "artist_checks": {
+    "stacked_segments": [
+      {
+        "P_l": 0.0,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 0,
+        "center": 1,
+        "bottom": 0.0,
+        "height": 0.144451219512,
+        "source_share": 0.144451219512,
+        "match": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 1,
+        "center": 1,
+        "bottom": 0.144451219512,
+        "height": 0.409780487805,
+        "source_share": 0.409780487805,
+        "match": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 2,
+        "center": 1,
+        "bottom": 0.554231707317,
+        "height": 0.263829268293,
+        "source_share": 0.263829268293,
+        "match": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 3,
+        "center": 1,
+        "bottom": 0.81806097561,
+        "height": 0.120731707317,
+        "source_share": 0.120731707317,
+        "match": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 4,
+        "center": 1,
+        "bottom": 0.938792682927,
+        "height": 0.043353658536600004,
+        "source_share": 0.0433536585366,
+        "match": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 5,
+        "center": 1,
+        "bottom": 0.9821463414636,
+        "height": 0.012743902439000032,
+        "source_share": 0.012743902439,
+        "match": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 6,
+        "center": 1,
+        "bottom": 0.9948902439026001,
+        "height": 0.004012195121949946,
+        "source_share": 0.00401219512195,
+        "match": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 7,
+        "center": 1,
+        "bottom": 0.99890243902455,
+        "height": 0.0010975609756100901,
+        "source_share": 0.00109756097561,
+        "match": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 0,
+        "center": 2,
+        "bottom": 0.0,
+        "height": 0.186682926829,
+        "source_share": 0.186682926829,
+        "match": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 1,
+        "center": 2,
+        "bottom": 0.186682926829,
+        "height": 0.487207317073,
+        "source_share": 0.487207317073,
+        "match": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 2,
+        "center": 2,
+        "bottom": 0.673890243902,
+        "height": 0.19713414634100002,
+        "source_share": 0.197134146341,
+        "match": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 3,
+        "center": 2,
+        "bottom": 0.871024390243,
+        "height": 0.07809756097559994,
+        "source_share": 0.0780975609756,
+        "match": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 4,
+        "center": 2,
+        "bottom": 0.9491219512186,
+        "height": 0.03112195121950001,
+        "source_share": 0.0311219512195,
+        "match": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 5,
+        "center": 2,
+        "bottom": 0.9802439024381,
+        "height": 0.010902439024400024,
+        "source_share": 0.0109024390244,
+        "match": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 6,
+        "center": 2,
+        "bottom": 0.9911463414625,
+        "height": 0.0047195121951200125,
+        "source_share": 0.00471951219512,
+        "match": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 7,
+        "center": 2,
+        "bottom": 0.99586585365762,
+        "height": 0.004134146341460032,
+        "source_share": 0.00413414634146,
+        "match": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 0,
+        "center": 3,
+        "bottom": 0.0,
+        "height": 0.256036585366,
+        "source_share": 0.256036585366,
+        "match": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 1,
+        "center": 3,
+        "bottom": 0.256036585366,
+        "height": 0.599024390244,
+        "source_share": 0.599024390244,
+        "match": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 2,
+        "center": 3,
+        "bottom": 0.85506097561,
+        "height": 0.08779268292679998,
+        "source_share": 0.0877926829268,
+        "match": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 3,
+        "center": 3,
+        "bottom": 0.9428536585368,
+        "height": 0.029695121951199943,
+        "source_share": 0.0296951219512,
+        "match": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 4,
+        "center": 3,
+        "bottom": 0.972548780488,
+        "height": 0.013097560975599998,
+        "source_share": 0.0130975609756,
+        "match": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 5,
+        "center": 3,
+        "bottom": 0.9856463414636,
+        "height": 0.006256097560980001,
+        "source_share": 0.00625609756098,
+        "match": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 6,
+        "center": 3,
+        "bottom": 0.99190243902458,
+        "height": 0.0030731707317099843,
+        "source_share": 0.00307317073171,
+        "match": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 7,
+        "center": 3,
+        "bottom": 0.99497560975629,
+        "height": 0.00502439024389989,
+        "source_share": 0.0050243902439,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 0,
+        "center": 0.8200000000000001,
+        "bottom": 0.0,
+        "height": 0.143662706367,
+        "source_share": 0.143662706367,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 1,
+        "center": 0.8200000000000001,
+        "bottom": 0.143662706367,
+        "height": 0.41079548232500007,
+        "source_share": 0.410795482325,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 2,
+        "center": 0.8200000000000001,
+        "bottom": 0.554458188692,
+        "height": 0.2642807086169999,
+        "source_share": 0.264280708617,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 3,
+        "center": 0.8200000000000001,
+        "bottom": 0.818738897309,
+        "height": 0.12138398604900003,
+        "source_share": 0.121383986049,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 4,
+        "center": 0.8200000000000001,
+        "bottom": 0.940122883358,
+        "height": 0.041607588128899975,
+        "source_share": 0.0416075881289,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 5,
+        "center": 0.8200000000000001,
+        "bottom": 0.9817304714869,
+        "height": 0.013021724604399987,
+        "source_share": 0.0130217246044,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 6,
+        "center": 0.8200000000000001,
+        "bottom": 0.9947521960913,
+        "height": 0.004058084388600003,
+        "source_share": 0.0040580843886,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 7,
+        "center": 0.8200000000000001,
+        "bottom": 0.9988102804799,
+        "height": 0.0011897195195500476,
+        "source_share": 0.00118971951955,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 0,
+        "center": 1.18,
+        "bottom": 0.0,
+        "height": 0.143355457584,
+        "source_share": 0.143355457584,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 1,
+        "center": 1.18,
+        "bottom": 0.143355457584,
+        "height": 0.410445230367,
+        "source_share": 0.410445230367,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 2,
+        "center": 1.18,
+        "bottom": 0.553800687951,
+        "height": 0.26403759507800006,
+        "source_share": 0.264037595078,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 3,
+        "center": 1.18,
+        "bottom": 0.8178382830290001,
+        "height": 0.11951940312999998,
+        "source_share": 0.11951940313,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 4,
+        "center": 1.18,
+        "bottom": 0.9373576861590001,
+        "height": 0.04340874957609997,
+        "source_share": 0.0434087495761,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 5,
+        "center": 1.18,
+        "bottom": 0.9807664357351,
+        "height": 0.013322997916800028,
+        "source_share": 0.0133229979168,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 6,
+        "center": 1.18,
+        "bottom": 0.9940894336519001,
+        "height": 0.004941621045490008,
+        "source_share": 0.00494162104549,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 7,
+        "center": 1.18,
+        "bottom": 0.9990310546973901,
+        "height": 0.0009689453030380379,
+        "source_share": 0.000968945303038,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 0,
+        "center": 1.82,
+        "bottom": 0.0,
+        "height": 0.186540404864,
+        "source_share": 0.186540404864,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 1,
+        "center": 1.82,
+        "bottom": 0.186540404864,
+        "height": 0.4874335821629999,
+        "source_share": 0.487433582163,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 2,
+        "center": 1.82,
+        "bottom": 0.673973987027,
+        "height": 0.20001955862700005,
+        "source_share": 0.200019558627,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 3,
+        "center": 1.82,
+        "bottom": 0.873993545654,
+        "height": 0.07593636926689995,
+        "source_share": 0.0759363692669,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 4,
+        "center": 1.82,
+        "bottom": 0.9499299149209,
+        "height": 0.02950092903479995,
+        "source_share": 0.0295009290348,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 5,
+        "center": 1.82,
+        "bottom": 0.9794308439556999,
+        "height": 0.012207843009400032,
+        "source_share": 0.0122078430094,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 6,
+        "center": 1.82,
+        "bottom": 0.9916386869650999,
+        "height": 0.004433288783129985,
+        "source_share": 0.00443328878313,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 7,
+        "center": 1.82,
+        "bottom": 0.9960719757482299,
+        "height": 0.003928024252700002,
+        "source_share": 0.0039280242527,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 0,
+        "center": 2.18,
+        "bottom": 0.0,
+        "height": 0.182020730408,
+        "source_share": 0.182020730408,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 1,
+        "center": 2.18,
+        "bottom": 0.182020730408,
+        "height": 0.489344182893,
+        "source_share": 0.489344182893,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 2,
+        "center": 2.18,
+        "bottom": 0.671364913301,
+        "height": 0.19466240434000004,
+        "source_share": 0.19466240434,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 3,
+        "center": 2.18,
+        "bottom": 0.866027317641,
+        "height": 0.08190448513030002,
+        "source_share": 0.0819044851303,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 4,
+        "center": 2.18,
+        "bottom": 0.9479318027713001,
+        "height": 0.031822144725400014,
+        "source_share": 0.0318221447254,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 5,
+        "center": 2.18,
+        "bottom": 0.9797539474967001,
+        "height": 0.010413639445900014,
+        "source_share": 0.0104136394459,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 6,
+        "center": 2.18,
+        "bottom": 0.9901675869426001,
+        "height": 0.0056669572798599965,
+        "source_share": 0.00566695727986,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 7,
+        "center": 2.18,
+        "bottom": 0.9958345442224601,
+        "height": 0.004165455778359917,
+        "source_share": 0.00416545577836,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 0,
+        "center": 2.82,
+        "bottom": 0.0,
+        "height": 0.256884927437,
+        "source_share": 0.256884927437,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 1,
+        "center": 2.82,
+        "bottom": 0.256884927437,
+        "height": 0.59802145061,
+        "source_share": 0.59802145061,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 2,
+        "center": 2.82,
+        "bottom": 0.854906378047,
+        "height": 0.08779404802720003,
+        "source_share": 0.0877940480272,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 3,
+        "center": 2.82,
+        "bottom": 0.9427004260742,
+        "height": 0.030184305467100048,
+        "source_share": 0.0301843054671,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 4,
+        "center": 2.82,
+        "bottom": 0.9728847315413001,
+        "height": 0.013125030608699961,
+        "source_share": 0.0131250306087,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 5,
+        "center": 2.82,
+        "bottom": 0.98600976215,
+        "height": 0.0055177367484500195,
+        "source_share": 0.00551773674845,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 6,
+        "center": 2.82,
+        "bottom": 0.99152749889845,
+        "height": 0.002954764353459982,
+        "source_share": 0.00295476435346,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 7,
+        "center": 2.82,
+        "bottom": 0.99448226325191,
+        "height": 0.0055177367484499085,
+        "source_share": 0.00551773674845,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 0,
+        "center": 3.18,
+        "bottom": 0.0,
+        "height": 0.261871474714,
+        "source_share": 0.261871474714,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 1,
+        "center": 3.18,
+        "bottom": 0.261871474714,
+        "height": 0.6002024779439998,
+        "source_share": 0.600202477944,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 2,
+        "center": 3.18,
+        "bottom": 0.8620739526579999,
+        "height": 0.0829195391216,
+        "source_share": 0.0829195391216,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 3,
+        "center": 3.18,
+        "bottom": 0.9449934917795999,
+        "height": 0.029118256761299977,
+        "source_share": 0.0291182567613,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 4,
+        "center": 3.18,
+        "bottom": 0.9741117485408999,
+        "height": 0.012196885696399984,
+        "source_share": 0.0121968856964,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 5,
+        "center": 3.18,
+        "bottom": 0.9863086342372999,
+        "height": 0.0064600106059899964,
+        "source_share": 0.00646001060599,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 6,
+        "center": 3.18,
+        "bottom": 0.9927686448432899,
+        "height": 0.0030853781998699814,
+        "source_share": 0.00308537819987,
+        "match": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 7,
+        "center": 3.18,
+        "bottom": 0.9958540230431598,
+        "height": 0.004145976956079989,
+        "source_share": 0.00414597695608,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 0,
+        "center": 0.8200000000000001,
+        "bottom": 0.0,
+        "height": 0.146097738877,
+        "source_share": 0.146097738877,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 1,
+        "center": 0.8200000000000001,
+        "bottom": 0.146097738877,
+        "height": 0.410308777048,
+        "source_share": 0.410308777048,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 2,
+        "center": 0.8200000000000001,
+        "bottom": 0.556406515925,
+        "height": 0.26316557257499995,
+        "source_share": 0.263165572575,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 3,
+        "center": 0.8200000000000001,
+        "bottom": 0.8195720885,
+        "height": 0.11947483588600005,
+        "source_share": 0.119474835886,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 4,
+        "center": 0.8200000000000001,
+        "bottom": 0.939046924386,
+        "height": 0.042353513250700026,
+        "source_share": 0.0423535132507,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 5,
+        "center": 0.8200000000000001,
+        "bottom": 0.9814004376367,
+        "height": 0.012715779236599944,
+        "source_share": 0.0127157792366,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 6,
+        "center": 0.8200000000000001,
+        "bottom": 0.9941162168733,
+        "height": 0.0046194991490400295,
+        "source_share": 0.00461949914904,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 7,
+        "center": 0.8200000000000001,
+        "bottom": 0.99873571602234,
+        "height": 0.0012642839776300097,
+        "source_share": 0.00126428397763,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 0,
+        "center": 1.18,
+        "bottom": 0.0,
+        "height": 0.144678248104,
+        "source_share": 0.144678248104,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 1,
+        "center": 1.18,
+        "bottom": 0.144678248104,
+        "height": 0.407315879618,
+        "source_share": 0.407315879618,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 2,
+        "center": 1.18,
+        "bottom": 0.551994127722,
+        "height": 0.264423782726,
+        "source_share": 0.264423782726,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 3,
+        "center": 1.18,
+        "bottom": 0.8164179104479999,
+        "height": 0.12246146317600004,
+        "source_share": 0.122461463176,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 4,
+        "center": 1.18,
+        "bottom": 0.938879373624,
+        "height": 0.043479324687999976,
+        "source_share": 0.043479324688,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 5,
+        "center": 1.18,
+        "bottom": 0.982358698312,
+        "height": 0.012551994127700028,
+        "source_share": 0.0125519941277,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 6,
+        "center": 1.18,
+        "bottom": 0.9949106924397,
+        "height": 0.004159530217760055,
+        "source_share": 0.00415953021776,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 7,
+        "center": 1.18,
+        "bottom": 0.99907022265746,
+        "height": 0.0009297773427939804,
+        "source_share": 0.000929777342794,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 0,
+        "center": 1.82,
+        "bottom": 0.0,
+        "height": 0.188835152016,
+        "source_share": 0.188835152016,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 1,
+        "center": 1.82,
+        "bottom": 0.188835152016,
+        "height": 0.48611077356800003,
+        "source_share": 0.486110773568,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 2,
+        "center": 1.82,
+        "bottom": 0.674945925584,
+        "height": 0.19656354047699998,
+        "source_share": 0.196563540477,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 3,
+        "center": 1.82,
+        "bottom": 0.871509466061,
+        "height": 0.07806158407660002,
+        "source_share": 0.0780615840766,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 4,
+        "center": 1.82,
+        "bottom": 0.9495710501376,
+        "height": 0.030233066809200015,
+        "source_share": 0.0302330668092,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 5,
+        "center": 1.82,
+        "bottom": 0.9798041169468,
+        "height": 0.011519673366199967,
+        "source_share": 0.0115196733662,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 6,
+        "center": 1.82,
+        "bottom": 0.991323790313,
+        "height": 0.004423165722900024,
+        "source_share": 0.0044231657229,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 7,
+        "center": 1.82,
+        "bottom": 0.9957469560359,
+        "height": 0.004253043964320025,
+        "source_share": 0.00425304396432,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 0,
+        "center": 2.18,
+        "bottom": 0.0,
+        "height": 0.184613125107,
+        "source_share": 0.184613125107,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 1,
+        "center": 2.18,
+        "bottom": 0.184613125107,
+        "height": 0.4896090862360001,
+        "source_share": 0.489609086236,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 2,
+        "center": 2.18,
+        "bottom": 0.6742222113430001,
+        "height": 0.19594644212199996,
+        "source_share": 0.195946442122,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 3,
+        "center": 2.18,
+        "bottom": 0.870168653465,
+        "height": 0.07948008714169996,
+        "source_share": 0.0794800871417,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 4,
+        "center": 2.18,
+        "bottom": 0.9496487406067,
+        "height": 0.030230338041300042,
+        "source_share": 0.0302303380413,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 5,
+        "center": 2.18,
+        "bottom": 0.9798790786480001,
+        "height": 0.011724965118799946,
+        "source_share": 0.0117249651188,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 6,
+        "center": 2.18,
+        "bottom": 0.9916040437668,
+        "height": 0.004332607152469969,
+        "source_share": 0.00433260715247,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 7,
+        "center": 2.18,
+        "bottom": 0.99593665091927,
+        "height": 0.004063349080849932,
+        "source_share": 0.00406334908085,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 0,
+        "center": 2.82,
+        "bottom": 0.0,
+        "height": 0.258256355261,
+        "source_share": 0.258256355261,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 1,
+        "center": 2.82,
+        "bottom": 0.258256355261,
+        "height": 0.596017451071,
+        "source_share": 0.596017451071,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 2,
+        "center": 2.82,
+        "bottom": 0.854273806332,
+        "height": 0.08874210923979997,
+        "source_share": 0.0887421092398,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 3,
+        "center": 2.82,
+        "bottom": 0.9430159155718,
+        "height": 0.02997879548610005,
+        "source_share": 0.0299787954861,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 4,
+        "center": 2.82,
+        "bottom": 0.9729947110579,
+        "height": 0.012673962319299958,
+        "source_share": 0.0126739623193,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 5,
+        "center": 2.82,
+        "bottom": 0.9856686733772,
+        "height": 0.006117624119529985,
+        "source_share": 0.00611762411953,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 6,
+        "center": 2.82,
+        "bottom": 0.99178629749673,
+        "height": 0.0030222525530699818,
+        "source_share": 0.00302225255307,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 7,
+        "center": 2.82,
+        "bottom": 0.9948085500498,
+        "height": 0.00519144995003995,
+        "source_share": 0.00519144995004,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 0,
+        "center": 3.18,
+        "bottom": 0.0,
+        "height": 0.254985233458,
+        "source_share": 0.254985233458,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 1,
+        "center": 3.18,
+        "bottom": 0.254985233458,
+        "height": 0.60091284079,
+        "source_share": 0.60091284079,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 2,
+        "center": 3.18,
+        "bottom": 0.855898074248,
+        "height": 0.08669546752580004,
+        "source_share": 0.0866954675258,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 3,
+        "center": 3.18,
+        "bottom": 0.9425935417738001,
+        "height": 0.031143979888199946,
+        "source_share": 0.0311439798882,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 4,
+        "center": 3.18,
+        "bottom": 0.973737521662,
+        "height": 0.01244782895219998,
+        "source_share": 0.0124478289522,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 5,
+        "center": 3.18,
+        "bottom": 0.9861853506142,
+        "height": 0.0056869493056099785,
+        "source_share": 0.00568694930561,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 6,
+        "center": 3.18,
+        "bottom": 0.99187229991981,
+        "height": 0.0032950135461700114,
+        "source_share": 0.00329501354617,
+        "match": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 7,
+        "center": 3.18,
+        "bottom": 0.99516731346598,
+        "height": 0.00483268653437996,
+        "source_share": 0.00483268653438,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 0,
+        "center": 0.8200000000000001,
+        "bottom": 0.0,
+        "height": 0.148617680043,
+        "source_share": 0.148617680043,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 1,
+        "center": 0.8200000000000001,
+        "bottom": 0.148617680043,
+        "height": 0.41435467355799993,
+        "source_share": 0.414354673558,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 2,
+        "center": 0.8200000000000001,
+        "bottom": 0.562972353601,
+        "height": 0.256228972646,
+        "source_share": 0.256228972646,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 3,
+        "center": 0.8200000000000001,
+        "bottom": 0.8192013262469999,
+        "height": 0.11804573601800006,
+        "source_share": 0.118045736018,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 4,
+        "center": 0.8200000000000001,
+        "bottom": 0.937247062265,
+        "height": 0.04466331854310002,
+        "source_share": 0.0446633185431,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 5,
+        "center": 0.8200000000000001,
+        "bottom": 0.9819103808081,
+        "height": 0.011994734019200037,
+        "source_share": 0.0119947340192,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 6,
+        "center": 0.8200000000000001,
+        "bottom": 0.9939051148273,
+        "height": 0.004729630893750003,
+        "source_share": 0.00472963089375,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 1,
+        "player_type": "node",
+        "bin_id": 7,
+        "center": 0.8200000000000001,
+        "bottom": 0.99863474572105,
+        "height": 0.0013652542786100064,
+        "source_share": 0.00136525427861,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 0,
+        "center": 1.18,
+        "bottom": 0.0,
+        "height": 0.14137028183,
+        "source_share": 0.14137028183,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 1,
+        "center": 1.18,
+        "bottom": 0.14137028183,
+        "height": 0.412727065749,
+        "source_share": 0.412727065749,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 2,
+        "center": 1.18,
+        "bottom": 0.554097347579,
+        "height": 0.26236359792499997,
+        "source_share": 0.262363597925,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 3,
+        "center": 1.18,
+        "bottom": 0.816460945504,
+        "height": 0.122375632206,
+        "source_share": 0.122375632206,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 4,
+        "center": 1.18,
+        "bottom": 0.93883657771,
+        "height": 0.043160787757600017,
+        "source_share": 0.0431607877576,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 5,
+        "center": 1.18,
+        "bottom": 0.9819973654676,
+        "height": 0.012798620936400051,
+        "source_share": 0.0127986209364,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 6,
+        "center": 1.18,
+        "bottom": 0.994795986404,
+        "height": 0.004081898163959985,
+        "source_share": 0.00408189816396,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 7,
+        "center": 1.18,
+        "bottom": 0.99887788456796,
+        "height": 0.0011221154315299575,
+        "source_share": 0.00112211543153,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 0,
+        "center": 1.82,
+        "bottom": 0.0,
+        "height": 0.182529397648,
+        "source_share": 0.182529397648,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 1,
+        "center": 1.82,
+        "bottom": 0.182529397648,
+        "height": 0.48956083513299997,
+        "source_share": 0.489560835133,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 2,
+        "center": 1.82,
+        "bottom": 0.672090232781,
+        "height": 0.20263978881700007,
+        "source_share": 0.202639788817,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 3,
+        "center": 1.82,
+        "bottom": 0.8747300215980001,
+        "height": 0.07784977201819998,
+        "source_share": 0.0778497720182,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 4,
+        "center": 1.82,
+        "bottom": 0.9525797936162,
+        "height": 0.02846172306219996,
+        "source_share": 0.0284617230622,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 5,
+        "center": 1.82,
+        "bottom": 0.9810415166784,
+        "height": 0.01060715142790003,
+        "source_share": 0.0106071514279,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 6,
+        "center": 1.82,
+        "bottom": 0.9916486681063,
+        "height": 0.004319654427650033,
+        "source_share": 0.00431965442765,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 2,
+        "player_type": "node",
+        "bin_id": 7,
+        "center": 1.82,
+        "bottom": 0.9959683225339501,
+        "height": 0.004031677465800021,
+        "source_share": 0.0040316774658,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 0,
+        "center": 2.18,
+        "bottom": 0.0,
+        "height": 0.186005068258,
+        "source_share": 0.186005068258,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 1,
+        "center": 2.18,
+        "bottom": 0.186005068258,
+        "height": 0.487975149187,
+        "source_share": 0.487975149187,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 2,
+        "center": 2.18,
+        "bottom": 0.673980217445,
+        "height": 0.19622333033600003,
+        "source_share": 0.196223330336,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 3,
+        "center": 2.18,
+        "bottom": 0.8702035477810001,
+        "height": 0.07906482465459996,
+        "source_share": 0.0790648246546,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 4,
+        "center": 2.18,
+        "bottom": 0.9492683724356,
+        "height": 0.030622087795299957,
+        "source_share": 0.0306220877953,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 5,
+        "center": 2.18,
+        "bottom": 0.9798904602309,
+        "height": 0.011395405869400022,
+        "source_share": 0.0113954058694,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 6,
+        "center": 2.18,
+        "bottom": 0.9912858661003,
+        "height": 0.004332543121070009,
+        "source_share": 0.00433254312107,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 7,
+        "center": 2.18,
+        "bottom": 0.99561840922137,
+        "height": 0.004381590779040101,
+        "source_share": 0.00438159077904,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 0,
+        "center": 2.82,
+        "bottom": 0.0,
+        "height": 0.255272514734,
+        "source_share": 0.255272514734,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 1,
+        "center": 2.82,
+        "bottom": 0.255272514734,
+        "height": 0.5983634503919999,
+        "source_share": 0.598363450392,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 2,
+        "center": 2.82,
+        "bottom": 0.8536359651259999,
+        "height": 0.08752617992300005,
+        "source_share": 0.087526179923,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 3,
+        "center": 2.82,
+        "bottom": 0.941162145049,
+        "height": 0.031464614485400055,
+        "source_share": 0.0314646144854,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 4,
+        "center": 2.82,
+        "bottom": 0.9726267595344,
+        "height": 0.012517656227200025,
+        "source_share": 0.0125176562272,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 5,
+        "center": 2.82,
+        "bottom": 0.9851444157616001,
+        "height": 0.006234474696800052,
+        "source_share": 0.0062344746968,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 6,
+        "center": 2.82,
+        "bottom": 0.9913788904584001,
+        "height": 0.00340947834980998,
+        "source_share": 0.00340947834981,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 3,
+        "player_type": "node",
+        "bin_id": 7,
+        "center": 2.82,
+        "bottom": 0.9947883688082101,
+        "height": 0.005211631191860078,
+        "source_share": 0.00521163119186,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 0,
+        "center": 3.18,
+        "bottom": 0.0,
+        "height": 0.254925246872,
+        "source_share": 0.254925246872,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 1,
+        "center": 3.18,
+        "bottom": 0.254925246872,
+        "height": 0.596609673169,
+        "source_share": 0.596609673169,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 2,
+        "center": 3.18,
+        "bottom": 0.8515349200410001,
+        "height": 0.09128178431400003,
+        "source_share": 0.091281784314,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 3,
+        "center": 3.18,
+        "bottom": 0.9428167043550001,
+        "height": 0.03014527648080001,
+        "source_share": 0.0301452764808,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 4,
+        "center": 3.18,
+        "bottom": 0.9729619808358001,
+        "height": 0.013193642323800048,
+        "source_share": 0.0131936423238,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 5,
+        "center": 3.18,
+        "bottom": 0.9861556231596001,
+        "height": 0.005921684100929969,
+        "source_share": 0.00592168410093,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 6,
+        "center": 3.18,
+        "bottom": 0.9920773072605301,
+        "height": 0.0031072573167000295,
+        "source_share": 0.0031072573167,
+        "match": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 7,
+        "center": 3.18,
+        "bottom": 0.9951845645772301,
+        "height": 0.004815435422729997,
+        "source_share": 0.00481543542273,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 0,
+        "center": 1,
+        "bottom": 0.0,
+        "height": 0.143682926829,
+        "source_share": 0.143682926829,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 1,
+        "center": 1,
+        "bottom": 0.143682926829,
+        "height": 0.41054878048800003,
+        "source_share": 0.410548780488,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 2,
+        "center": 1,
+        "bottom": 0.554231707317,
+        "height": 0.26264634146300003,
+        "source_share": 0.262646341463,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 3,
+        "center": 1,
+        "bottom": 0.81687804878,
+        "height": 0.122,
+        "source_share": 0.122,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 4,
+        "center": 1,
+        "bottom": 0.93887804878,
+        "height": 0.04315853658540003,
+        "source_share": 0.0431585365854,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 5,
+        "center": 1,
+        "bottom": 0.9820365853654001,
+        "height": 0.012426829268299966,
+        "source_share": 0.0124268292683,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 6,
+        "center": 1,
+        "bottom": 0.9944634146337,
+        "height": 0.0043902439024400275,
+        "source_share": 0.00439024390244,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 1,
+        "player_type": "link",
+        "bin_id": 7,
+        "center": 1,
+        "bottom": 0.99885365853614,
+        "height": 0.0011463414634099722,
+        "source_share": 0.00114634146341,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 0,
+        "center": 2,
+        "bottom": 0.0,
+        "height": 0.187146341463,
+        "source_share": 0.187146341463,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 1,
+        "center": 2,
+        "bottom": 0.187146341463,
+        "height": 0.487914634146,
+        "source_share": 0.487914634146,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 2,
+        "center": 2,
+        "bottom": 0.675060975609,
+        "height": 0.19524390243900003,
+        "source_share": 0.195243902439,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 3,
+        "center": 2,
+        "bottom": 0.870304878048,
+        "height": 0.07941463414630001,
+        "source_share": 0.0794146341463,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 4,
+        "center": 2,
+        "bottom": 0.9497195121943001,
+        "height": 0.03039024390239997,
+        "source_share": 0.0303902439024,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 5,
+        "center": 2,
+        "bottom": 0.9801097560967,
+        "height": 0.011146341463399989,
+        "source_share": 0.0111463414634,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 6,
+        "center": 2,
+        "bottom": 0.9912560975601,
+        "height": 0.004597560975610038,
+        "source_share": 0.00459756097561,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 2,
+        "player_type": "link",
+        "bin_id": 7,
+        "center": 2,
+        "bottom": 0.9958536585357101,
+        "height": 0.004146341463409975,
+        "source_share": 0.00414634146341,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 0,
+        "center": 3,
+        "bottom": 0.0,
+        "height": 0.25437804878,
+        "source_share": 0.25437804878,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 1,
+        "center": 3,
+        "bottom": 0.25437804878,
+        "height": 0.599634146341,
+        "source_share": 0.599634146341,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 2,
+        "center": 3,
+        "bottom": 0.854012195121,
+        "height": 0.08929268292680004,
+        "source_share": 0.0892926829268,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 3,
+        "center": 3,
+        "bottom": 0.9433048780478,
+        "height": 0.029329268292699995,
+        "source_share": 0.0293292682927,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 4,
+        "center": 3,
+        "bottom": 0.9726341463405,
+        "height": 0.01373170731710005,
+        "source_share": 0.0137317073171,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 5,
+        "center": 3,
+        "bottom": 0.9863658536576001,
+        "height": 0.0057682926829299985,
+        "source_share": 0.00576829268293,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 6,
+        "center": 3,
+        "bottom": 0.9921341463405301,
+        "height": 0.002817073170729989,
+        "source_share": 0.00281707317073,
+        "match": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 3,
+        "player_type": "link",
+        "bin_id": 7,
+        "center": 3,
+        "bottom": 0.9949512195112601,
+        "height": 0.0050487804877999976,
+        "source_share": 0.0050487804878,
+        "match": true
+      }
+    ],
+    "curves": [
+      {
+        "P_l": 0.0,
+        "category_rank": 1,
+        "category_value": 0.5,
+        "player_type": "node",
+        "color": "#3f8c65",
+        "marker": "o",
+        "linestyle": "-",
+        "markerfacecolor": "#3f8c65",
+        "x": [
+          3.0,
+          5.20494203401,
+          10.6379123877,
+          21.4371805741,
+          43.0111049194,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.551430927952,
+          0.556381498599,
+          0.55682618008,
+          0.552602835708,
+          0.548174389659,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 5,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 2,
+        "category_value": 0.25,
+        "player_type": "node",
+        "color": "#d06c38",
+        "marker": "o",
+        "linestyle": "-",
+        "markerfacecolor": "#d06c38",
+        "x": [
+          3.0,
+          5.02813821652,
+          10.4547307235,
+          21.4105989453,
+          43.2739466093,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.540590926242,
+          0.546382325939,
+          0.548487581236,
+          0.54630232843,
+          0.543456184024,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 5,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      },
+      {
+        "P_l": 0.0,
+        "category_rank": 3,
+        "category_value": 0.0,
+        "player_type": "node",
+        "color": "#176c92",
+        "marker": "o",
+        "linestyle": "-",
+        "markerfacecolor": "#176c92",
+        "x": [
+          3.0,
+          4.60018637468,
+          10.3190108567,
+          21.416387151,
+          null,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.507685554081,
+          0.511665086189,
+          0.517685357376,
+          0.517182117072,
+          null,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 4,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 1,
+        "category_value": 0.5,
+        "player_type": "node",
+        "color": "#3f8c65",
+        "marker": "o",
+        "linestyle": "-",
+        "markerfacecolor": "#3f8c65",
+        "x": [
+          3.0,
+          5.20719940051,
+          10.6177289596,
+          21.3547309606,
+          42.88560221,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.590893114241,
+          0.598332690439,
+          0.607752193738,
+          0.607010855923,
+          0.6003507868,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 5,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 1,
+        "category_value": 0.5,
+        "player_type": "link",
+        "color": "#3f8c65",
+        "marker": "^",
+        "linestyle": "--",
+        "markerfacecolor": "white",
+        "x": [
+          3.0,
+          5.20990688583,
+          10.637825403,
+          21.4210188271,
+          null,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.565811213191,
+          0.558066419782,
+          0.557871083635,
+          0.561387700969,
+          null,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 4,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 2,
+        "category_value": 0.25,
+        "player_type": "node",
+        "color": "#d06c38",
+        "marker": "o",
+        "linestyle": "-",
+        "markerfacecolor": "#d06c38",
+        "x": [
+          3.0,
+          5.02108545009,
+          10.4656629284,
+          21.2723681141,
+          42.9637541842,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.579466756495,
+          0.590501627921,
+          0.601043059686,
+          0.600548160782,
+          0.595476270544,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 5,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 2,
+        "category_value": 0.25,
+        "player_type": "link",
+        "color": "#d06c38",
+        "marker": "^",
+        "linestyle": "--",
+        "markerfacecolor": "white",
+        "x": [
+          3.0,
+          5.02859043219,
+          10.4835129362,
+          21.2889762635,
+          null,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.559302302357,
+          0.549243332529,
+          0.551005770491,
+          0.552736374012,
+          null,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 4,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 3,
+        "category_value": 0.0,
+        "player_type": "node",
+        "color": "#176c92",
+        "marker": "o",
+        "linestyle": "-",
+        "markerfacecolor": "#176c92",
+        "x": [
+          3.0,
+          4.60362362705,
+          10.2767196464,
+          21.5344307369,
+          null,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.547832876352,
+          0.554111937645,
+          0.564543452732,
+          0.573165779624,
+          null,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 4,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      },
+      {
+        "P_l": 0.25,
+        "category_rank": 3,
+        "category_value": 0.0,
+        "player_type": "link",
+        "color": "#176c92",
+        "marker": "^",
+        "linestyle": "--",
+        "markerfacecolor": "white",
+        "x": [
+          3.0,
+          4.58492497852,
+          10.2748441273,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.527851116215,
+          0.528154654555,
+          0.525173495377,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 3,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 1,
+        "category_value": 0.5,
+        "player_type": "node",
+        "color": "#3f8c65",
+        "marker": "o",
+        "linestyle": "-",
+        "markerfacecolor": "#3f8c65",
+        "x": [
+          3.0,
+          5.18971160354,
+          10.6649475633,
+          21.4290421202,
+          42.4067629204,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.597323929886,
+          0.610123649394,
+          0.627933175487,
+          0.63295803069,
+          0.627536457745,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 5,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 1,
+        "category_value": 0.5,
+        "player_type": "link",
+        "color": "#3f8c65",
+        "marker": "^",
+        "linestyle": "--",
+        "markerfacecolor": "white",
+        "x": [
+          3.0,
+          5.2111551327,
+          10.6569736414,
+          21.3130361998,
+          43.0835328163,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.554260898436,
+          0.542215398989,
+          0.545234472324,
+          0.555657238485,
+          0.561679849484,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 5,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 2,
+        "category_value": 0.25,
+        "player_type": "node",
+        "color": "#d06c38",
+        "marker": "o",
+        "linestyle": "-",
+        "markerfacecolor": "#d06c38",
+        "x": [
+          3.0,
+          5.0096910918,
+          10.4671313198,
+          21.4318652765,
+          42.9799271657,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.588412128878,
+          0.604530791502,
+          0.61617199206,
+          0.620586943579,
+          0.621661732891,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 5,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 2,
+        "category_value": 0.25,
+        "player_type": "link",
+        "color": "#d06c38",
+        "marker": "^",
+        "linestyle": "--",
+        "markerfacecolor": "white",
+        "x": [
+          3.0,
+          5.01789142546,
+          10.4084938227,
+          21.3575304911,
+          42.8334147548,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.545337638931,
+          0.538059879923,
+          0.538479363885,
+          0.543317289708,
+          0.5478961576,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 5,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 3,
+        "category_value": 0.0,
+        "player_type": "node",
+        "color": "#176c92",
+        "marker": "o",
+        "linestyle": "-",
+        "markerfacecolor": "#176c92",
+        "x": [
+          3.0,
+          4.59952286529,
+          10.2264899216,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.547389620904,
+          0.563079393293,
+          0.578392998259,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 3,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      },
+      {
+        "P_l": 0.5,
+        "category_rank": 3,
+        "category_value": 0.0,
+        "player_type": "link",
+        "color": "#176c92",
+        "marker": "^",
+        "linestyle": "--",
+        "markerfacecolor": "white",
+        "x": [
+          3.0,
+          4.59935198686,
+          10.3192042732,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.509506233501,
+          0.511161846281,
+          0.508315721541,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 3,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 1,
+        "category_value": 0.5,
+        "player_type": "node",
+        "color": "#3f8c65",
+        "marker": "o",
+        "linestyle": "-",
+        "markerfacecolor": "#3f8c65",
+        "x": [
+          3.0,
+          5.21575832842,
+          10.6430925301,
+          21.2628801517,
+          null,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.537576575044,
+          0.555246593395,
+          0.57830435532,
+          0.595317097856,
+          null,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 4,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 1,
+        "category_value": 0.5,
+        "player_type": "link",
+        "color": "#3f8c65",
+        "marker": "^",
+        "linestyle": "--",
+        "markerfacecolor": "white",
+        "x": [
+          3.0,
+          5.19860853786,
+          10.6630733165,
+          21.3953049921,
+          42.7503550429,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.462596843534,
+          0.461041965684,
+          0.471867130192,
+          0.48556496216,
+          0.49848060799,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 5,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 2,
+        "category_value": 0.25,
+        "player_type": "node",
+        "color": "#d06c38",
+        "marker": "o",
+        "linestyle": "-",
+        "markerfacecolor": "#d06c38",
+        "x": [
+          3.0,
+          5.02328081868,
+          10.4030773836,
+          21.3334416105,
+          null,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.534922391391,
+          0.547223998359,
+          0.575859301962,
+          0.583679658469,
+          null,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 4,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 2,
+        "category_value": 0.25,
+        "player_type": "link",
+        "color": "#d06c38",
+        "marker": "^",
+        "linestyle": "--",
+        "markerfacecolor": "white",
+        "x": [
+          3.0,
+          5.02577584477,
+          10.4807251794,
+          21.3457095193,
+          43.191408908,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.470000399434,
+          0.464069026318,
+          0.473161533143,
+          0.480048363599,
+          0.490197114134,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 5,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 3,
+        "category_value": 0.0,
+        "player_type": "node",
+        "color": "#176c92",
+        "marker": "o",
+        "linestyle": "-",
+        "markerfacecolor": "#176c92",
+        "x": [
+          3.0,
+          4.59758721373,
+          10.2078206915,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.522948129078,
+          0.534140758718,
+          0.565338831441,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 3,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      },
+      {
+        "P_l": 0.75,
+        "category_rank": 3,
+        "category_value": 0.0,
+        "player_type": "link",
+        "color": "#176c92",
+        "marker": "^",
+        "linestyle": "--",
+        "markerfacecolor": "white",
+        "x": [
+          3.0,
+          4.59064840297,
+          10.2323952867,
+          21.4011511976,
+          null,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.479939781783,
+          0.478243661255,
+          0.479173123772,
+          0.480930728815,
+          null,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 4,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 1,
+        "category_value": 0.5,
+        "player_type": "link",
+        "color": "#3f8c65",
+        "marker": "^",
+        "linestyle": "--",
+        "markerfacecolor": "white",
+        "x": [
+          3.0,
+          5.19430544552,
+          10.6301482549,
+          21.3173211105,
+          42.6349591654,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.369793351644,
+          0.367979060401,
+          0.382809213348,
+          0.40062747416,
+          0.414270318865,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 5,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 2,
+        "category_value": 0.25,
+        "player_type": "link",
+        "color": "#d06c38",
+        "marker": "^",
+        "linestyle": "--",
+        "markerfacecolor": "white",
+        "x": [
+          3.0,
+          5.02128485589,
+          10.4820841547,
+          21.4326377564,
+          43.3682100953,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.381769840045,
+          0.379952204642,
+          0.39072748514,
+          0.403844987968,
+          0.413213303894,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 5,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      },
+      {
+        "P_l": 1.0,
+        "category_rank": 3,
+        "category_value": 0.0,
+        "player_type": "link",
+        "color": "#176c92",
+        "marker": "^",
+        "linestyle": "--",
+        "markerfacecolor": "white",
+        "x": [
+          3.0,
+          4.59865973301,
+          10.2689716013,
+          21.3712353393,
+          44.1305230374,
+          null,
+          null,
+          null
+        ],
+        "y": [
+          0.401647761513,
+          0.403080336577,
+          0.412853807218,
+          0.416046794741,
+          0.420599364317,
+          null,
+          null,
+          null
+        ],
+        "shown_points": 5,
+        "source_points_preserved": true,
+        "missing_bins_preserved_as_gaps": true
+      }
+    ],
+    "stacked_segment_count": 192,
+    "type_bars": 24,
+    "shown_points": 105,
+    "source_show_line_points": 105,
+    "all_match": true
+  },
+  "layout": {
+    "width_mm": 160.0,
+    "height_mm": 108.0,
+    "rows": 2,
+    "columns": 5,
+    "font_sizes_pt": [
+      8.0
+    ],
+    "font_families": [
+      "Times New Roman"
+    ],
+    "scientific_axes": 10,
+    "text_bounds": [
+      {
+        "text": "N",
+        "bounds_mm": [
+          17.35066666666667,
+          59.33409288194444,
+          19.38266666666667,
+          61.9
+        ]
+      },
+      {
+        "text": "N",
+        "bounds_mm": [
+          26.084,
+          59.33409288194444,
+          28.116,
+          61.9
+        ]
+      },
+      {
+        "text": "N",
+        "bounds_mm": [
+          34.81733333333334,
+          59.33409288194444,
+          36.849333333333334,
+          61.9
+        ]
+      },
+      {
+        "text": "0.5",
+        "bounds_mm": [
+          16.567500000000003,
+          55.789648437500006,
+          20.165833333333335,
+          58.35555555555556
+        ]
+      },
+      {
+        "text": "0.25",
+        "bounds_mm": [
+          24.581166666666665,
+          55.789648437500006,
+          29.61883333333333,
+          58.35555555555556
+        ]
+      },
+      {
+        "text": "0",
+        "bounds_mm": [
+          35.11366666666667,
+          55.789648437500006,
+          36.553000000000004,
+          58.35555555555556
+        ]
+      },
+      {
+        "text": "Fraction of players",
+        "bounds_mm": [
+          3.894129340277779,
+          68.205,
+          6.49288888888889,
+          89.795
+        ]
+      },
+      {
+        "text": "0",
+        "bounds_mm": [
+          10.62038888888889,
+          63.65103211009175,
+          12.059722222222224,
+          66.21693922814731
+        ]
+      },
+      {
+        "text": "0.25",
+        "bounds_mm": [
+          7.022055555555557,
+          70.53176605504588,
+          12.059722222222224,
+          73.09767317310143
+        ]
+      },
+      {
+        "text": "0.5",
+        "bounds_mm": [
+          8.46138888888889,
+          77.4125,
+          12.059722222222224,
+          79.97840711805556
+        ]
+      },
+      {
+        "text": "0.75",
+        "bounds_mm": [
+          7.022055555555557,
+          84.29323394495414,
+          12.059722222222224,
+          86.85914106300969
+        ]
+      },
+      {
+        "text": "1",
+        "bounds_mm": [
+          10.62038888888889,
+          91.17396788990827,
+          12.059722222222224,
+          93.73987500796382
+        ]
+      },
+      {
+        "text": "$P_l=0$",
+        "bounds_mm": [
+          24.009666666666664,
+          94.44924045138887,
+          30.19033333333333,
+          97.01514756944445
+        ]
+      },
+      {
+        "text": "N",
+        "bounds_mm": [
+          43.97866666666667,
+          59.33409288194444,
+          46.010666666666665,
+          61.9
+        ]
+      },
+      {
+        "text": "L",
+        "bounds_mm": [
+          47.27083333333334,
+          59.33409288194444,
+          49.00650000000001,
+          61.9
+        ]
+      },
+      {
+        "text": "N",
+        "bounds_mm": [
+          52.71200000000001,
+          59.33409288194444,
+          54.74400000000001,
+          61.9
+        ]
+      },
+      {
+        "text": "L",
+        "bounds_mm": [
+          56.00416666666667,
+          59.33409288194444,
+          57.73983333333334,
+          61.9
+        ]
+      },
+      {
+        "text": "N",
+        "bounds_mm": [
+          61.44533333333334,
+          59.33409288194444,
+          63.47733333333334,
+          61.9
+        ]
+      },
+      {
+        "text": "L",
+        "bounds_mm": [
+          64.73750000000001,
+          59.33409288194444,
+          66.47316666666669,
+          61.9
+        ]
+      },
+      {
+        "text": "0.5",
+        "bounds_mm": [
+          44.7675,
+          55.789648437500006,
+          48.365833333333335,
+          58.35555555555556
+        ]
+      },
+      {
+        "text": "0.25",
+        "bounds_mm": [
+          52.78116666666667,
+          55.789648437500006,
+          57.81883333333334,
+          58.35555555555556
+        ]
+      },
+      {
+        "text": "0",
+        "bounds_mm": [
+          63.313666666666684,
+          55.789648437500006,
+          64.75300000000001,
+          58.35555555555556
+        ]
+      },
+      {
+        "text": "$P_l=0.25$",
+        "bounds_mm": [
+          50.45283333333334,
+          94.44924045138887,
+          60.14716666666668,
+          97.01514756944445
+        ]
+      },
+      {
+        "text": "N",
+        "bounds_mm": [
+          72.17866666666667,
+          59.33409288194444,
+          74.21066666666668,
+          61.9
+        ]
+      },
+      {
+        "text": "L",
+        "bounds_mm": [
+          75.47083333333335,
+          59.33409288194444,
+          77.2065,
+          61.9
+        ]
+      },
+      {
+        "text": "N",
+        "bounds_mm": [
+          80.912,
+          59.33409288194444,
+          82.944,
+          61.9
+        ]
+      },
+      {
+        "text": "L",
+        "bounds_mm": [
+          84.20416666666667,
+          59.33409288194444,
+          85.93983333333334,
+          61.9
+        ]
+      },
+      {
+        "text": "N",
+        "bounds_mm": [
+          89.64533333333334,
+          59.33409288194444,
+          91.67733333333334,
+          61.9
+        ]
+      },
+      {
+        "text": "L",
+        "bounds_mm": [
+          92.9375,
+          59.33409288194444,
+          94.67316666666667,
+          61.9
+        ]
+      },
+      {
+        "text": "Random attachment probability, $\\eta$",
+        "bounds_mm": [
+          64.30183333333333,
+          52.81220399305556,
+          102.69816666666667,
+          55.43687065972223
+        ]
+      },
+      {
+        "text": "0.5",
+        "bounds_mm": [
+          72.96750000000002,
+          55.789648437500006,
+          76.56583333333334,
+          58.35555555555556
+        ]
+      },
+      {
+        "text": "0.25",
+        "bounds_mm": [
+          80.98116666666667,
+          55.789648437500006,
+          86.01883333333333,
+          58.35555555555556
+        ]
+      },
+      {
+        "text": "0",
+        "bounds_mm": [
+          91.51366666666668,
+          55.789648437500006,
+          92.95300000000002,
+          58.35555555555556
+        ]
+      },
+      {
+        "text": "$P_l=0.5$",
+        "bounds_mm": [
+          79.35133333333334,
+          94.44924045138887,
+          87.64866666666667,
+          97.01514756944445
+        ]
+      },
+      {
+        "text": "N",
+        "bounds_mm": [
+          100.37866666666666,
+          59.33409288194444,
+          102.41066666666666,
+          61.9
+        ]
+      },
+      {
+        "text": "L",
+        "bounds_mm": [
+          103.67083333333332,
+          59.33409288194444,
+          105.4065,
+          61.9
+        ]
+      },
+      {
+        "text": "N",
+        "bounds_mm": [
+          109.11199999999998,
+          59.33409288194444,
+          111.14399999999999,
+          61.9
+        ]
+      },
+      {
+        "text": "L",
+        "bounds_mm": [
+          112.40416666666665,
+          59.33409288194444,
+          114.13983333333331,
+          61.9
+        ]
+      },
+      {
+        "text": "N",
+        "bounds_mm": [
+          117.84533333333331,
+          59.33409288194444,
+          119.87733333333331,
+          61.9
+        ]
+      },
+      {
+        "text": "L",
+        "bounds_mm": [
+          121.13749999999999,
+          59.33409288194444,
+          122.87316666666665,
+          61.9
+        ]
+      },
+      {
+        "text": "0.5",
+        "bounds_mm": [
+          101.16749999999998,
+          55.789648437500006,
+          104.76583333333332,
+          58.35555555555556
+        ]
+      },
+      {
+        "text": "0.25",
+        "bounds_mm": [
+          109.18116666666667,
+          55.789648437500006,
+          114.21883333333334,
+          58.35555555555556
+        ]
+      },
+      {
+        "text": "0",
+        "bounds_mm": [
+          119.71366666666665,
+          55.789648437500006,
+          121.15299999999999,
+          58.35555555555556
+        ]
+      },
+      {
+        "text": "$P_l=0.75$",
+        "bounds_mm": [
+          106.85283333333332,
+          94.44924045138887,
+          116.54716666666667,
+          97.01514756944445
+        ]
+      },
+      {
+        "text": "L",
+        "bounds_mm": [
+          130.29883333333333,
+          59.33409288194444,
+          132.0345,
+          61.9
+        ]
+      },
+      {
+        "text": "L",
+        "bounds_mm": [
+          139.03216666666668,
+          59.33409288194444,
+          140.76783333333336,
+          61.9
+        ]
+      },
+      {
+        "text": "L",
+        "bounds_mm": [
+          147.7655,
+          59.33409288194444,
+          149.50116666666668,
+          61.9
+        ]
+      },
+      {
+        "text": "0.5",
+        "bounds_mm": [
+          129.3675,
+          55.789648437500006,
+          132.96583333333334,
+          58.35555555555556
+        ]
+      },
+      {
+        "text": "0.25",
+        "bounds_mm": [
+          137.38116666666667,
+          55.789648437500006,
+          142.41883333333334,
+          58.35555555555556
+        ]
+      },
+      {
+        "text": "0",
+        "bounds_mm": [
+          147.91366666666667,
+          55.789648437500006,
+          149.353,
+          58.35555555555556
+        ]
+      },
+      {
+        "text": "$P_l=1$",
+        "bounds_mm": [
+          136.8096666666667,
+          94.44924045138887,
+          142.99033333333335,
+          97.01514756944445
+        ]
+      },
+      {
+        "text": "3",
+        "bounds_mm": [
+          14.915849684431667,
+          7.493815104166667,
+          16.355183017765,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "6",
+        "bounds_mm": [
+          20.22138726640586,
+          7.493815104166667,
+          21.660720599739193,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "12",
+        "bounds_mm": [
+          25.526924848380055,
+          7.493815104166667,
+          28.40559151504672,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "24",
+        "bounds_mm": [
+          31.552129097020913,
+          7.493815104166667,
+          34.430795763687584,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "48",
+        "bounds_mm": [
+          36.13800001232844,
+          7.493815104166667,
+          39.01666667899511,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "Mean cooperation rate",
+        "bounds_mm": [
+          3.894129340277778,
+          14.109500000000002,
+          6.49288888888889,
+          39.8905
+        ]
+      },
+      {
+        "text": "0.25",
+        "bounds_mm": [
+          7.022055555555557,
+          10.4125,
+          12.059722222222224,
+          12.978407118055557
+        ]
+      },
+      {
+        "text": "0.5",
+        "bounds_mm": [
+          8.46138888888889,
+          25.4125,
+          12.059722222222224,
+          27.978407118055557
+        ]
+      },
+      {
+        "text": "0.75",
+        "bounds_mm": [
+          7.022055555555557,
+          40.41250000000001,
+          12.059722222222224,
+          42.978407118055564
+        ]
+      },
+      {
+        "text": "$P_l=0$",
+        "bounds_mm": [
+          24.009666666666664,
+          42.44924045138889,
+          30.19033333333333,
+          45.01514756944445
+        ]
+      },
+      {
+        "text": "3",
+        "bounds_mm": [
+          43.11584968443167,
+          7.493815104166667,
+          44.55518301776501,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "6",
+        "bounds_mm": [
+          48.42138726640587,
+          7.493815104166667,
+          49.8607205997392,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "12",
+        "bounds_mm": [
+          53.726924848380065,
+          7.493815104166667,
+          56.60559151504673,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "24",
+        "bounds_mm": [
+          59.752129097020934,
+          7.493815104166667,
+          62.6307957636876,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "48",
+        "bounds_mm": [
+          64.33800001232846,
+          7.493815104166667,
+          67.21666667899513,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "$P_l=0.25$",
+        "bounds_mm": [
+          50.45283333333334,
+          42.44924045138889,
+          60.14716666666668,
+          45.01514756944445
+        ]
+      },
+      {
+        "text": "Mean hyperdegree (log scale)",
+        "bounds_mm": [
+          66.46083333333334,
+          4.542277777777778,
+          100.53916666666666,
+          7.141037326388889
+        ]
+      },
+      {
+        "text": "3",
+        "bounds_mm": [
+          71.31584968443167,
+          7.493815104166667,
+          72.755183017765,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "6",
+        "bounds_mm": [
+          76.62138726640586,
+          7.493815104166667,
+          78.0607205997392,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "12",
+        "bounds_mm": [
+          81.92692484838005,
+          7.493815104166667,
+          84.80559151504671,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "24",
+        "bounds_mm": [
+          87.95212909702092,
+          7.493815104166667,
+          90.83079576368758,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "48",
+        "bounds_mm": [
+          92.53800001232844,
+          7.493815104166667,
+          95.4166666789951,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "$P_l=0.5$",
+        "bounds_mm": [
+          79.35133333333334,
+          42.44924045138889,
+          87.64866666666667,
+          45.01514756944445
+        ]
+      },
+      {
+        "text": "3",
+        "bounds_mm": [
+          99.51584968443164,
+          7.493815104166667,
+          100.95518301776498,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "6",
+        "bounds_mm": [
+          104.82138726640586,
+          7.493815104166667,
+          106.26072059973919,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "12",
+        "bounds_mm": [
+          110.12692484838006,
+          7.493815104166667,
+          113.00559151504672,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "24",
+        "bounds_mm": [
+          116.15212909702092,
+          7.493815104166667,
+          119.03079576368758,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "48",
+        "bounds_mm": [
+          120.73800001232844,
+          7.493815104166667,
+          123.6166666789951,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "$P_l=0.75$",
+        "bounds_mm": [
+          106.85283333333332,
+          42.44924045138889,
+          116.54716666666667,
+          45.01514756944445
+        ]
+      },
+      {
+        "text": "3",
+        "bounds_mm": [
+          127.71584968443166,
+          7.493815104166667,
+          129.15518301776498,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "6",
+        "bounds_mm": [
+          133.02138726640587,
+          7.493815104166667,
+          134.4607205997392,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "12",
+        "bounds_mm": [
+          138.32692484838006,
+          7.493815104166667,
+          141.20559151504673,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "24",
+        "bounds_mm": [
+          144.35212909702093,
+          7.493815104166667,
+          147.2307957636876,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "48",
+        "bounds_mm": [
+          148.93800001232844,
+          7.493815104166667,
+          151.81666667899512,
+          10.059722222222222
+        ]
+      },
+      {
+        "text": "$P_l=1$",
+        "bounds_mm": [
+          136.8096666666667,
+          42.44924045138889,
+          142.99033333333335,
+          45.01514756944445
+        ]
+      },
+      {
+        "text": "(a)",
+        "bounds_mm": [
+          11.433666666666664,
+          95.5,
+          14.566333333333331,
+          98.09875954861111
+        ]
+      },
+      {
+        "text": "(b)",
+        "bounds_mm": [
+          39.54900000000001,
+          95.5,
+          42.851000000000006,
+          98.09875954861111
+        ]
+      },
+      {
+        "text": "(c)",
+        "bounds_mm": [
+          67.83366666666667,
+          95.5,
+          70.96633333333334,
+          98.09875954861111
+        ]
+      },
+      {
+        "text": "(d)",
+        "bounds_mm": [
+          95.94899999999998,
+          95.5,
+          99.25099999999999,
+          98.09875954861111
+        ]
+      },
+      {
+        "text": "(e)",
+        "bounds_mm": [
+          124.23366666666668,
+          95.5,
+          127.36633333333334,
+          98.09875954861111
+        ]
+      },
+      {
+        "text": "(f)",
+        "bounds_mm": [
+          11.602999999999996,
+          43.50000000000001,
+          14.396999999999997,
+          46.09875954861111
+        ]
+      },
+      {
+        "text": "(g)",
+        "bounds_mm": [
+          39.54900000000001,
+          43.50000000000001,
+          42.851000000000006,
+          46.09875954861111
+        ]
+      },
+      {
+        "text": "(h)",
+        "bounds_mm": [
+          67.74900000000001,
+          43.50000000000001,
+          71.051,
+          46.09875954861111
+        ]
+      },
+      {
+        "text": "(i)",
+        "bounds_mm": [
+          96.2665,
+          43.50000000000001,
+          98.93349999999998,
+          46.09875954861111
+        ]
+      },
+      {
+        "text": "(j)",
+        "bounds_mm": [
+          124.46650000000001,
+          43.50000000000001,
+          127.13350000000001,
+          46.09875954861111
+        ]
+      },
+      {
+        "text": "Hyperdegree intervals",
+        "bounds_mm": [
+          70.84233333333333,
+          104.40124045138889,
+          96.15766666666666,
+          107.0
+        ]
+      },
+      {
+        "text": "1-3",
+        "bounds_mm": [
+          33.53255555555555,
+          100.95581423611111,
+          37.34255555555555,
+          103.52172135416667
+        ]
+      },
+      {
+        "text": "4-7",
+        "bounds_mm": [
+          44.96255555555555,
+          100.95581423611111,
+          48.77255555555555,
+          103.52172135416667
+        ]
+      },
+      {
+        "text": "8-15",
+        "bounds_mm": [
+          56.392555555555546,
+          100.95581423611111,
+          61.64188888888888,
+          103.52172135416667
+        ]
+      },
+      {
+        "text": "16-31",
+        "bounds_mm": [
+          69.26188888888888,
+          100.95581423611111,
+          75.95055555555554,
+          103.52172135416667
+        ]
+      },
+      {
+        "text": "32-63",
+        "bounds_mm": [
+          83.57055555555554,
+          100.95581423611111,
+          90.2592222222222,
+          103.52172135416667
+        ]
+      },
+      {
+        "text": "64-127",
+        "bounds_mm": [
+          97.87922222222221,
+          100.95581423611111,
+          106.00722222222221,
+          103.52172135416667
+        ]
+      },
+      {
+        "text": "128-255",
+        "bounds_mm": [
+          113.62722222222222,
+          100.95581423611111,
+          123.19455555555555,
+          103.52172135416667
+        ]
+      },
+      {
+        "text": "$\\geq256$",
+        "bounds_mm": [
+          130.81455555555556,
+          100.95581423611111,
+          137.41855555555554,
+          103.52172135416667
+        ]
+      },
+      {
+        "text": "$\\eta=0.5$",
+        "bounds_mm": [
+          48.43388888888888,
+          47.387666666666675,
+          55.79988888888888,
+          49.97948090277778
+        ]
+      },
+      {
+        "text": "$\\eta=0.25$",
+        "bounds_mm": [
+          64.26655555555554,
+          47.387666666666675,
+          73.02955555555555,
+          49.97948090277778
+        ]
+      },
+      {
+        "text": "$\\eta=0$",
+        "bounds_mm": [
+          81.49622222222223,
+          47.387666666666675,
+          86.74555555555557,
+          49.97948090277778
+        ]
+      },
+      {
+        "text": "Node (N)",
+        "bounds_mm": [
+          95.21222222222224,
+          47.41357378472223,
+          106.00722222222224,
+          50.01233333333334
+        ]
+      },
+      {
+        "text": "Link (L)",
+        "bounds_mm": [
+          114.4738888888889,
+          47.41357378472223,
+          124.21055555555557,
+          50.01233333333334
+        ]
+      }
+    ],
+    "axes_rectangles_mm": [
+      [
+        14.0,
+        64.0,
+        40.2,
+        94.0
+      ],
+      [
+        42.20000000000001,
+        64.0,
+        68.40000000000002,
+        94.0
+      ],
+      [
+        70.4,
+        64.0,
+        96.60000000000001,
+        94.0
+      ],
+      [
+        98.6,
+        64.0,
+        124.8,
+        94.0
+      ],
+      [
+        126.80000000000001,
+        64.0,
+        153.00000000000003,
+        94.0
+      ],
+      [
+        14.0,
+        12.0,
+        40.2,
+        42.00000000000001
+      ],
+      [
+        42.20000000000001,
+        12.0,
+        68.40000000000002,
+        42.00000000000001
+      ],
+      [
+        70.4,
+        12.0,
+        96.60000000000001,
+        42.00000000000001
+      ],
+      [
+        98.6,
+        12.0,
+        124.8,
+        42.00000000000001
+      ],
+      [
+        126.80000000000001,
+        12.0,
+        153.00000000000003,
+        42.00000000000001
+      ]
+    ],
+    "legend_bounds_mm": [
+      [
+        29.581444444444436,
+        100.95581423611112,
+        137.41855555555557,
+        107.0
+      ],
+      [
+        42.789444444444435,
+        47.387666666666675,
+        124.21055555555557,
+        50.01233333333334
+      ]
+    ],
+    "axis_labels": [
+      {
+        "xlabel": "",
+        "ylabel": "Fraction of players",
+        "xticklabels": [
+          "0.5",
+          "0.25",
+          "0"
+        ],
+        "yticklabels": [
+          "0",
+          "0.25",
+          "0.5",
+          "0.75",
+          "1"
+        ]
+      },
+      {
+        "xlabel": "",
+        "ylabel": "",
+        "xticklabels": [
+          "0.5",
+          "0.25",
+          "0"
+        ],
+        "yticklabels": []
+      },
+      {
+        "xlabel": "Random attachment probability, $\\eta$",
+        "ylabel": "",
+        "xticklabels": [
+          "0.5",
+          "0.25",
+          "0"
+        ],
+        "yticklabels": []
+      },
+      {
+        "xlabel": "",
+        "ylabel": "",
+        "xticklabels": [
+          "0.5",
+          "0.25",
+          "0"
+        ],
+        "yticklabels": []
+      },
+      {
+        "xlabel": "",
+        "ylabel": "",
+        "xticklabels": [
+          "0.5",
+          "0.25",
+          "0"
+        ],
+        "yticklabels": []
+      },
+      {
+        "xlabel": "",
+        "ylabel": "Mean cooperation rate",
+        "xticklabels": [
+          "3",
+          "6",
+          "12",
+          "24",
+          "48"
+        ],
+        "yticklabels": [
+          "0.25",
+          "0.5",
+          "0.75"
+        ]
+      },
+      {
+        "xlabel": "",
+        "ylabel": "",
+        "xticklabels": [
+          "3",
+          "6",
+          "12",
+          "24",
+          "48"
+        ],
+        "yticklabels": []
+      },
+      {
+        "xlabel": "Mean hyperdegree (log scale)",
+        "ylabel": "",
+        "xticklabels": [
+          "3",
+          "6",
+          "12",
+          "24",
+          "48"
+        ],
+        "yticklabels": []
+      },
+      {
+        "xlabel": "",
+        "ylabel": "",
+        "xticklabels": [
+          "3",
+          "6",
+          "12",
+          "24",
+          "48"
+        ],
+        "yticklabels": []
+      },
+      {
+        "xlabel": "",
+        "ylabel": "",
+        "xticklabels": [
+          "3",
+          "6",
+          "12",
+          "24",
+          "48"
+        ],
+        "yticklabels": []
+      }
+    ],
+    "violations": []
+  },
+  "passed": true,
+  "pdf": "C:\\data\\pros\\hyper_graph_csis\\附录图\\FigD2\\figures\\FigD2_publication.pdf"
+}

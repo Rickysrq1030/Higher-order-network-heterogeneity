@@ -1,0 +1,42 @@
+{
+  "game": "PGG",
+  "experiment": "alpha",
+  "source_identifier": "A2",
+  "archive": "C:\\Users\\12101\\xwechat_files\\wxid_722qgmkg0ocl22_3233\\msg\\file\\2026-11\\SRH_new_figure.rar",
+  "archive_sha256": "e434fbe018be6c61dbf81a1ec72140aa7ccc092fc06b532a931cd51a2216df33",
+  "files": [
+    {
+      "archive_member": "SRH_new_figure/SRH_PGG/alpha/A2/plot_data.csv",
+      "local_file": "附录图/FigD2/data/plot_data.csv",
+      "sha256": "ddba5c5345d552014607954d875c6622a7f44d6082dacaead97b2dfc7e90b73f"
+    },
+    {
+      "archive_member": "SRH_new_figure/SRH_PGG/alpha/A2/SRH_PGG_A2_alpha.pdf",
+      "local_file": "附录图/FigD2/data/source_reference.pdf",
+      "sha256": "33651cb88de1794885c70cdfc590b351ca011fb4b365237e0189ad05c1959c54"
+    },
+    {
+      "archive_member": "SRH_new_figure/SRH_PGG/FILES_AND_DATA.md",
+      "local_file": "附录图/FigD2/data/source_FILES_AND_DATA.md",
+      "sha256": "e91a099bd6f17ee0ac51b8e338a542bac8e2ed3acdb3a70c042a3f8b372dd0da"
+    },
+    {
+      "archive_member": "SRH_new_figure/SRH_PGG/METHODS_AND_EXAMPLES.md",
+      "local_file": "附录图/FigD2/data/source_METHODS_AND_EXAMPLES.md",
+      "sha256": "d130da1fdcff490f00dcd318db1ebce67878451d9cf67663cd49fa01ea99c677"
+    },
+    {
+      "archive_member": "SRH_new_figure/SRH_PGG/alpha/A1/plot_data.csv",
+      "local_file": "附录图/FigD2/data/source_A1_plot_data.csv",
+      "sha256": "6082b7a4adf57dcad3ef6527ea0c68595b2a9de395b55cc8c5523748135845fc"
+    }
+  ],
+  "matching_current_figure_A1": {
+    "path": "附录图/FigD1/data/box_plot_data.csv",
+    "sha256": "6082b7a4adf57dcad3ef6527ea0c68595b2a9de395b55cc8c5523748135845fc",
+    "same_package_A1_bytes_identical": true
+  },
+  "raw_simulation_txt_in_package": false,
+  "source_script_executed": false,
+  "source_data_modified": false
+}

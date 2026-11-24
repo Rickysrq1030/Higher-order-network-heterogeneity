@@ -1,0 +1,8 @@
+{
+  "name": "FigC1",
+  "kind": "native",
+  "scripts": [
+    "draw.py",
+    "phase.py"
+  ]
+}
