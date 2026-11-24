@@ -1,0 +1,10 @@
+{
+  "name": "Fig9",
+  "kind": "standalone",
+  "game": "MPD",
+  "theta": null,
+  "source_identifier": "A2",
+  "scripts": [
+    "draw.py"
+  ]
+}

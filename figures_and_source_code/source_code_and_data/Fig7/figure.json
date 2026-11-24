@@ -1,0 +1,10 @@
+{
+  "name": "Fig7",
+  "kind": "standalone",
+  "game": "PGG",
+  "theta": 2,
+  "source_identifier": "A2",
+  "scripts": [
+    "draw.py"
+  ]
+}

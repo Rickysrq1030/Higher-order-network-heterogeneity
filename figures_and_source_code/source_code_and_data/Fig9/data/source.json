@@ -1,0 +1,28 @@
+{
+  "game": "MPD",
+  "theta": null,
+  "source_identifier": "A2",
+  "files": [
+    {
+      "archive": "ORH_publication_figures_revised.rar",
+      "archive_sha256": "934688a827f989d4ef6c2046d777068eddad01ad5cdf167cca897ba6d9dbe561",
+      "archive_member": "ORH_publication_figures_revised/MPD/data/fig2_a2_bins.csv",
+      "local_file": "正文图/Fig9/data/plot_data.csv",
+      "sha256": "7a661bb97bb5fbcd3dc722ac63aab8c07635d159c51c22c9485c27e3f4d72a64"
+    },
+    {
+      "archive": "ORH_publication_figures_revised.rar",
+      "archive_sha256": "934688a827f989d4ef6c2046d777068eddad01ad5cdf167cca897ba6d9dbe561",
+      "archive_member": "ORH_publication_figures_revised/MPD/figures/ORH_MPD_Fig2.pdf",
+      "local_file": "正文图/Fig9/data/source_reference.pdf",
+      "sha256": "256cc7380888181b0a916e92aab84e773441c00cbd0a1600083b523a001c65b2"
+    }
+  ],
+  "source_tables_agree_by_bin_key": true,
+  "previous_table": {
+    "archive": "ORH_new_figure.rar",
+    "archive_sha256": "3351eda8d11caeaf86689e7ffd432762d99fd507045da67b7008151c0594b1ab",
+    "archive_member": "ORH_new_figure/ORH_A2/MPD_Figure3/plot_data.csv",
+    "sha256": "07b030de8e7e9ca96aa9f84ba12d96f27befa50b5169d4a724b1fd0216a3795a"
+  }
+}

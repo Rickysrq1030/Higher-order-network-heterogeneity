@@ -1,0 +1,8 @@
+{
+  "name": "FigA1",
+  "kind": "appendix",
+  "scripts": [
+    "draw.py"
+  ]
+}
+

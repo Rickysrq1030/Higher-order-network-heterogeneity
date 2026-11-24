@@ -1,0 +1,42 @@
+{
+  "game": "MPD",
+  "experiment": "dist",
+  "archive": "ORH_publication_figures_revised.rar",
+  "archive_sha256": "934688a827f989d4ef6c2046d777068eddad01ad5cdf167cca897ba6d9dbe561",
+  "files": [
+    {
+      "archive": "ORH_publication_figures_revised.rar",
+      "archive_sha256": "934688a827f989d4ef6c2046d777068eddad01ad5cdf167cca897ba6d9dbe561",
+      "archive_member": "ORH_publication_figures_revised/MPD/data/fig1_global.csv",
+      "local_file": "正文图/Fig8/data/fig1_global.csv",
+      "sha256": "381c6ab5a6b99aa8f82a2757cb737b98b2e8740973193b319368cf9216ff2009"
+    },
+    {
+      "archive": "ORH_publication_figures_revised.rar",
+      "archive_sha256": "934688a827f989d4ef6c2046d777068eddad01ad5cdf167cca897ba6d9dbe561",
+      "archive_member": "ORH_publication_figures_revised/MPD/data/fig1_a1_points.csv",
+      "local_file": "正文图/Fig8/data/fig1_a1_points.csv",
+      "sha256": "006be248fd7cd1e7c701e41876a654fb5cf661ec9dbc5e5d5cc07644da4f6210"
+    },
+    {
+      "archive": "ORH_publication_figures_revised.rar",
+      "archive_sha256": "934688a827f989d4ef6c2046d777068eddad01ad5cdf167cca897ba6d9dbe561",
+      "archive_member": "ORH_publication_figures_revised/MPD/data/fig1_a1_boxes.csv",
+      "local_file": "正文图/Fig8/data/fig1_a1_boxes.csv",
+      "sha256": "d98827490989d6db576d7e189da418fad691a2065d10548b1877613a70ab8c71"
+    },
+    {
+      "archive": "ORH_publication_figures_revised.rar",
+      "archive_sha256": "934688a827f989d4ef6c2046d777068eddad01ad5cdf167cca897ba6d9dbe561",
+      "archive_member": "ORH_publication_figures_revised/MPD/figures/ORH_MPD_Fig1.pdf",
+      "local_file": "正文图/Fig8/data/source_reference.pdf",
+      "sha256": "7e78ca13186c9c02b947a821164ce94c33f8aac4469e3e4654c43396126974a6"
+    }
+  ],
+  "previous_source_comparison": {
+    "workbook_rows": 1025,
+    "numeric_value_differences": 292,
+    "max_absolute_global_difference": 4.9999998030791915e-09,
+    "type_and_box_tables_equal_by_key": true
+  }
+}

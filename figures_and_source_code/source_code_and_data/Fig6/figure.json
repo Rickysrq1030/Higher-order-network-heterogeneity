@@ -1,0 +1,10 @@
+{
+  "name": "Fig6",
+  "kind": "standalone",
+  "game": "PGG",
+  "theta": 2,
+  "show_box_parameter_titles": true,
+  "scripts": [
+    "draw.py"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "game": "PGG",
+  "theta": 2,
+  "source_identifier": "A2",
+  "files": [
+    {
+      "archive": "ORH_publication_figures_revised.rar",
+      "archive_sha256": "934688a827f989d4ef6c2046d777068eddad01ad5cdf167cca897ba6d9dbe561",
+      "archive_member": "ORH_publication_figures_revised/PGG_theta_2/data/fig2_a2_bins.csv",
+      "local_file": "正文图/Fig7/data/plot_data.csv",
+      "sha256": "05a4081bc54dbe5b5003f95ff777fc1561a20a9751f308dd12f17330b5c1b4d6"
+    },
+    {
+      "archive": "ORH_publication_figures_revised.rar",
+      "archive_sha256": "934688a827f989d4ef6c2046d777068eddad01ad5cdf167cca897ba6d9dbe561",
+      "archive_member": "ORH_publication_figures_revised/PGG_theta_2/figures/ORH_PGG_theta_2_Fig2.pdf",
+      "local_file": "正文图/Fig7/data/source_reference.pdf",
+      "sha256": "8b9ca85614df1bc5f6d7e4825f202579fe1a433235e22ab3cda28f3fe2f2bd03"
+    }
+  ],
+  "source_tables_agree_by_bin_key": true,
+  "previous_table": {
+    "archive": "ORH_new_figure.rar",
+    "archive_sha256": "3351eda8d11caeaf86689e7ffd432762d99fd507045da67b7008151c0594b1ab",
+    "archive_member": "ORH_new_figure/ORH_A2/PGG_Figure3/theta_2/plot_data.csv",
+    "sha256": "b53b449670c462696dcf184ff9e15513a545302382a113de7afe9d62028725fc"
+  }
+}

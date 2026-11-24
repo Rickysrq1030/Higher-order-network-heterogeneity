@@ -1,0 +1,7 @@
+{
+  "name": "Fig8",
+  "kind": "native",
+  "scripts": [
+    "draw.py"
+  ]
+}
