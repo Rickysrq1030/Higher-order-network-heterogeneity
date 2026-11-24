@@ -1,0 +1,18 @@
+{
+  "game": "MPD",
+  "experiment": "m",
+  "archive": "C:\\Users\\12101\\xwechat_files\\wxid_722qgmkg0ocl22_3233\\msg\\file\\2026-11\\SRH_new_figure.rar",
+  "archive_sha256": "e434fbe018be6c61dbf81a1ec72140aa7ccc092fc06b532a931cd51a2216df33",
+  "files": [
+    {
+      "archive_member": "SRH_new_figure/SRH_MPD/m/A1/plot_data.csv",
+      "local_file": "正文图/Fig4/data/box_plot_data.csv",
+      "sha256": "26b5712a40e011bc20da932e84b154664f02b6d1a27df301ccea686eb8fc18cd"
+    },
+    {
+      "archive_member": "SRH_new_figure/SRH_MPD/m/A1/box_statistics.csv",
+      "local_file": "正文图/Fig4/data/box_statistics.csv",
+      "sha256": "2454023b27255e698a82f3e0821d53aea5a7df635e3ef4a5d7c3ad4e795acb3e"
+    }
+  ]
+}

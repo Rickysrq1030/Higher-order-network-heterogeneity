@@ -1,0 +1,8 @@
+{
+  "name": "Fig2",
+  "kind": "native",
+  "scripts": [
+    "draw.py"
+  ],
+  "prepare": "prepare_data.py"
+}

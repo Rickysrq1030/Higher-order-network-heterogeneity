@@ -1,0 +1,42 @@
+{
+  "game": "MPD",
+  "experiment": "m",
+  "source_identifier": "A2",
+  "archive": "C:\\Users\\12101\\xwechat_files\\wxid_722qgmkg0ocl22_3233\\msg\\file\\2026-11\\SRH_new_figure.rar",
+  "archive_sha256": "e434fbe018be6c61dbf81a1ec72140aa7ccc092fc06b532a931cd51a2216df33",
+  "files": [
+    {
+      "archive_member": "SRH_new_figure/SRH_MPD/m/A2/plot_data.csv",
+      "local_file": "正文图/Fig5/data/plot_data.csv",
+      "sha256": "d977ed1b97d1e6248baca0f0d6b35c121094378907b3b0431cee2bf2afa2eb0a"
+    },
+    {
+      "archive_member": "SRH_new_figure/SRH_MPD/m/A2/SRH_MPD_A2_m.pdf",
+      "local_file": "正文图/Fig5/data/source_reference.pdf",
+      "sha256": "cac7477bbd273068cd7d5fa87126aa9402bb90bdd2c7be88f8659e78408bd701"
+    },
+    {
+      "archive_member": "SRH_new_figure/SRH_MPD/FILES_AND_DATA.md",
+      "local_file": "正文图/Fig5/data/source_FILES_AND_DATA.md",
+      "sha256": "023af759f407de0ec654d9d201888c4077622c1109ace495c8ed32e69944b7d5"
+    },
+    {
+      "archive_member": "SRH_new_figure/SRH_MPD/METHODS_AND_EXAMPLES.md",
+      "local_file": "正文图/Fig5/data/source_METHODS_AND_EXAMPLES.md",
+      "sha256": "d05b058565be3ffc28ed719a37d5ff9ca65b5f0cbe62decc9dd92d56d34194de"
+    },
+    {
+      "archive_member": "SRH_new_figure/SRH_MPD/m/A1/plot_data.csv",
+      "local_file": "正文图/Fig5/data/source_A1_plot_data.csv",
+      "sha256": "26b5712a40e011bc20da932e84b154664f02b6d1a27df301ccea686eb8fc18cd"
+    }
+  ],
+  "matching_current_figure_A1": {
+    "path": "正文图/Fig4/data/box_plot_data.csv",
+    "sha256": "26b5712a40e011bc20da932e84b154664f02b6d1a27df301ccea686eb8fc18cd",
+    "same_package_A1_bytes_identical": true
+  },
+  "raw_simulation_txt_in_package": false,
+  "source_script_executed": false,
+  "source_data_modified": false
+}

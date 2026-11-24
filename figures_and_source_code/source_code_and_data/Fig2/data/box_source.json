@@ -1,0 +1,17 @@
+{
+  "archive": "C:\\Users\\12101\\xwechat_files\\wxid_722qgmkg0ocl22_3233\\msg\\file\\2026-11\\SRH_new_figure.rar",
+  "archive_sha256": "e434fbe018be6c61dbf81a1ec72140aa7ccc092fc06b532a931cd51a2216df33",
+  "experiment": "m",
+  "files": [
+    {
+      "archive_member": "SRH_new_figure/SRH_PGG/m/A1/plot_data.csv",
+      "local_file": "正文图/Fig2/data/box_plot_data.csv",
+      "sha256": "1041302070dba63df2535fa81644757876cd84d4bd7db2c5f1ca985fcbca6340"
+    },
+    {
+      "archive_member": "SRH_new_figure/SRH_PGG/m/A1/box_statistics.csv",
+      "local_file": "正文图/Fig2/data/box_statistics.csv",
+      "sha256": "823eaf092db852479c762312681d6e422b180986b332c0e45f41e15587d140ea"
+    }
+  ]
+}

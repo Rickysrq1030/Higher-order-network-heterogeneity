@@ -1,0 +1,10 @@
+{
+  "name": "Fig3",
+  "kind": "standalone",
+  "game": "PGG",
+  "experiment": "m",
+  "source_identifier": "A2",
+  "scripts": [
+    "draw.py"
+  ]
+}
